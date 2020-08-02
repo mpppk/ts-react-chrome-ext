@@ -1,5 +1,5 @@
 {
-  "name": "chrome-ext-cra-ts",
+  "name": "ts-react-chrome-ext",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,12 +14,8 @@
     "react-dom": "16.13.1"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "esbuild src/* --bundle '--define:process.env.NODE_ENV=\"production\"' --outdir=dist/src --sourcemap",
-    "build-scripts": "parcel build src/background_script.ts -d build/static/js -o background_script.js && yarn reload",
     "reload": "touch build/reload",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "pretty-quick": "pretty-quick",
     "precommit": "pretty-quick --staged"
   },
