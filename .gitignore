@@ -10,9 +10,7 @@
 
 # production
 /dist/src
-
-# percel
-.cache/
+/dist/reload
 
 # misc
 .DS_Store
