@@ -10,7 +10,8 @@ chokidar.watch('src').on('all', (event, path) => {
       outdir: 'dist/src',
       minify: false,
       bundle: true,
-    }).catch(() => process.exit(1));
+      define: {'process.env.NODE_ENV': '"production"'}
+    }).catch(() => console.warn('failed to build', path));
     shell.touch('dist/reload');
   }
 });
