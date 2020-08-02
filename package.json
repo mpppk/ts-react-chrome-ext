@@ -10,11 +10,8 @@
     "@types/node": "12.12.53",
     "@types/react": "16.9.44",
     "@types/react-dom": "16.9.8",
-    "customize-cra": "1.0.0",
     "react": "16.13.1",
-    "react-app-rewired": "2.1.6",
-    "react-dom": "16.13.1",
-    "react-scripts": "3.4.1"
+    "react-dom": "16.13.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,7 +38,6 @@
     "@types/chrome": "0.0.122",
     "esbuild": "^0.6.13",
     "husky": "4.2.5",
-    "parcel-bundler": "1.12.4",
     "prettier": "2.0.5",
     "pretty-quick": "2.0.1",
     "typescript": "3.9.7",
