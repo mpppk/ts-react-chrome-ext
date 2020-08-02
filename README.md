@@ -1,21 +1,45 @@
-# chrome-ext-with-cra-ts 
-Chrome extension boilerplate with create-react-app and TypeScript
+# ts-react-chrome-ext
+Chrome extension boilerplate with React and TypeScript.
+
+![autoreload.gif](https://raw.githubusercontent.com/wiki/mpppk/ts-react-chrome-ext/images/autoreload.gif)
+
+
+## Features
+* Fast build powered by [esbuild](https://github.com/evanw/esbuild)
+* Auto Reloading
+* Watch mode
+
+### Note
+If you are interested in using [create-react-app](https://github.com/facebook/create-react-app), see also [mpppk/chrome-ext-with-cra-ts](https://github.com/mpppk/chrome-ext-with-cra-ts).  
+It includes cra, but take more build-time than this boilerplate.
+
+## Load your Chrome extension
+Build your extension, then click 「LOAD UNPACKED」 button on `chrome://extensions`, then select `dist` dir.  
+(See https://developer.chrome.com/extensions/getstarted)
 
 ## Build
+`yarn build` transpile and bundle your TypeScript sources to `dist/src`, then reload chrome extension and current tab.
 
 ```
 $ yarn build
 ```
 
-## Build only background script
-
-`yarn build` takes about 5 seconds even with the minimum configuration, because it executes production build by webpack.  
-If you only want to build just background script, you can execute `yarn build-scripts` with few execution time.
+## Watch mode
+You can enter the watch mode by running `yarn watch`.
 
 ```
-$ yarn build-scripts
+$ yarn watch
+build src/background_script.ts
+build src/content_script.tsx
+build src/hot_reload.ts
+build src/options_page.tsx
+build src/content_script.tsx
 ```
 
-## Hot Reload
-Thanks to [src/hot_reload.ts](https://github.com/mpppk/chrome-ext-with-cra-ts/blob/master/src/hot_reload.ts) (inspired by [xpl/crx-hotreload](https://github.com/xpl/crx-hotreload)), if you execute `yarn build` or `yarn build-scripts`, Chrome extension and active tab are reloaded automatically.
+## Hot Reloading
+Thanks to [src/hot_reload.ts](https://github.com/mpppk/ts-react-chrome-ext/blob/master/src/hot_reload.ts) (inspired by [xpl/crx-hotreload](https://github.com/xpl/crx-hotreload)), if you execute `yarn build` or `yarn watch`, Chrome extension and active tab are reloaded automatically.
 You can also reload actively by running `yarn reload`.
+
+```
+$ yarn reload
+```
