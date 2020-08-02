@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-app-rewired build && yarn build-scripts",
+    "build": "esbuild src/* --bundle '--define:process.env.NODE_ENV=\"production\"' --outdir=dist/src --sourcemap",
     "build-scripts": "parcel build src/background_script.ts -d build/static/js -o background_script.js && yarn reload",
     "reload": "touch build/reload",
     "test": "react-scripts test",
@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "@types/chrome": "0.0.122",
+    "esbuild": "^0.6.13",
     "husky": "4.2.5",
     "parcel-bundler": "1.12.4",
     "prettier": "2.0.5",

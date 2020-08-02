@@ -4321,6 +4321,11 @@ es6-symbol@^3.1.1, es6-symbol@~3.1.3:
     d "^1.0.1"
     ext "^1.1.2"
 
+esbuild@^0.6.13:
+  version "0.6.13"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.6.13.tgz#eb7641715efcdc16bdc5c6f5b1671cb5dc61c8ce"
+  integrity sha512-eTaeqZCna+g9cTqhdT/qn1n+ef8FinkjTHTEexn8mbCRxxqGlc1GfgiURXt74OAwHwH6IU2j/bX9NCyFBsi5KQ==
+
 escalade@^3.0.1:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.0.2.tgz#6a580d70edb87880f22b4c91d0d56078df6962c4"
