@@ -461,10 +461,10 @@ error-ex@^1.3.1:
   dependencies:
     is-arrayish "^0.2.1"
 
-esbuild@0.6.20:
-  version "0.6.20"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.6.20.tgz#64f71790843daa71985c028a716885dadb6a5aca"
-  integrity sha512-TR7HxD+sDJ1P67Loc8UDlRMeBEiJMS5L4yVLsiCwE48TyHDP7CGfkDHZDr9BKIFTK+0fuk7w/St1/PzBXpBRlQ==
+esbuild@0.6.21:
+  version "0.6.21"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.6.21.tgz#a2354fad3a53c2c0b7774f7b34b4e11ef7603b70"
+  integrity sha512-2gWKUvMD9J6z0cUtVh7TAqONo9QaZwWOGnZ6FwdjZtDkRd8G+mCnFb+83IXjwspwz3bfLFWtblYkYbg7hRf2KQ==
 
 escape-string-regexp@^1.0.5:
   version "1.0.5"
