@@ -37,7 +37,7 @@
     "esbuild": "0.6.26",
     "husky": "4.2.5",
     "prettier": "2.0.5",
-    "pretty-quick": "2.0.1",
+    "pretty-quick": "2.0.2",
     "shelljs": "0.8.4",
     "typescript": "3.9.7",
     "webextension-polyfill-ts": "0.19.0"
