@@ -35,7 +35,7 @@
     "@types/chrome": "0.0.122",
     "chokidar": "3.4.2",
     "esbuild": "0.6.32",
-    "husky": "4.2.5",
+    "husky": "4.3.0",
     "prettier": "2.1.1",
     "pretty-quick": "2.0.2",
     "shelljs": "0.8.4",
