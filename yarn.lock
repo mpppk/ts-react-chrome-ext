@@ -164,10 +164,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
-"@types/node@12.12.61":
-  version "12.12.61"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.61.tgz#f9115df7cef34d76afa0a333d1c7e6aab051870a"
-  integrity sha512-+/KPk6uV9qGfVX0y2uUj3y8O0Z6KZWUy3XTS0uQGYYF+iXGtepm9GPETdcRq+hGmErkLOr5QJDX8vuymkwu4sA==
+"@types/node@12.12.62":
+  version "12.12.62"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.62.tgz#733923d73669188d35950253dd18a21570085d2b"
+  integrity sha512-qAfo81CsD7yQIM9mVyh6B/U47li5g7cfpVQEDMfQeF8pSZVwzbhwU3crc0qG4DmpsebpJPR49AKOExQyJ05Cpg==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
