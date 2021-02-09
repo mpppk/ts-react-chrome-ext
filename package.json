@@ -39,7 +39,7 @@
     "prettier": "2.2.1",
     "pretty-quick": "2.0.2",
     "shelljs": "0.8.4",
-    "typescript": "3.9.7",
+    "typescript": "3.9.8",
     "webextension-polyfill-ts": "0.24.0"
   },
   "husky": {
