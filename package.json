@@ -33,7 +33,7 @@
     "@types/jest": "26.0.23",
     "@types/node": "14.17.1",
     "@types/react": "17.0.9",
-    "@types/react-dom": "17.0.5",
+    "@types/react-dom": "17.0.6",
     "@types/chrome": "0.0.143",
     "chokidar": "3.5.1",
     "esbuild": "0.12.5",
