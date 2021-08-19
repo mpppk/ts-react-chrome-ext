@@ -32,7 +32,7 @@
     "@testing-library/user-event": "13.2.1",
     "@types/jest": "26.0.24",
     "@types/node": "14.17.10",
-    "@types/react": "17.0.18",
+    "@types/react": "17.0.19",
     "@types/react-dom": "17.0.9",
     "@types/chrome": "0.0.154",
     "chokidar": "3.5.2",
