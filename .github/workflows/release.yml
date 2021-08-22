@@ -1,7 +1,9 @@
-name: Build
+name: Release
 
-on: [push]
-
+on:
+  push:
+    tags:
+      - '*'
 jobs:
   main:
     runs-on: ubuntu-latest
@@ -22,3 +24,10 @@ jobs:
           yarn build
         env:
           CI: true
+      - name: archive
+        run: |
+          zip -r helpfeel-devtools.zip dist
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: "helpfeel-devtools.zip"
+          token: ${{ secrets.GITHUB_TOKEN }}
