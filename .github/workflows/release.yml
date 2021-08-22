@@ -26,8 +26,8 @@ jobs:
           CI: true
       - name: archive
         run: |
-          zip -r helpfeel-devtools.zip dist
+          zip -r chrome-ext.zip dist
       - uses: ncipollo/release-action@v1
         with:
-          artifacts: "helpfeel-devtools.zip"
+          artifacts: "chrome-ext.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
