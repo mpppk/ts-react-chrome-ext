@@ -1,7 +1,9 @@
-name: Build
+name: Release
 
-on: [push]
-
+on:
+  push:
+    tags:
+      - '*'
 jobs:
   main:
     runs-on: ubuntu-latest
@@ -25,9 +27,7 @@ jobs:
       - name: archive
         run: |
           zip -r helpfeel-devtools.zip dist
-#        if: startsWith(github.ref, 'refs/tags/')
-      - name: release
-        uses: softprops/action-gh-release@v1
-#        if: startsWith(github.ref, 'refs/tags/')
+      - uses: ncipollo/release-action@v1
         with:
-          files: helpfeel-devtools.zip
+          artifacts: "helpfeel-devtools.zip"
+          token: ${{ secrets.GITHUB_TOKEN }}
