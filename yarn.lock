@@ -115,10 +115,10 @@
   resolved "https://registry.yarnpkg.com/@types/aria-query/-/aria-query-4.2.0.tgz#14264692a9d6e2fa4db3df5e56e94b5e25647ac0"
   integrity sha512-iIgQNzCm0v7QMhhe4Jjn9uRh+I6GoPmt03CbEtwx3ao8/EfoQcmgtqH4vQ5Db/lxiIGaWDv6nwvunuh0RyX0+A==
 
-"@types/chrome@0.0.154":
-  version "0.0.154"
-  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.154.tgz#7992e97364f4447e961028ad07ac843d0b052c2d"
-  integrity sha512-6QmP744MeMUZUIUHED4d4L2la5dIF1e6bcrkGF4yGQTyO94ER+r++Ss165wkzA5cAGUYt8kToDa6L9xtNqVMxg==
+"@types/chrome@0.0.155":
+  version "0.0.155"
+  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.155.tgz#8d5ebb4f57d050a280634cae279e28256eb70955"
+  integrity sha512-y21uDq+SXa253hddPUHABvkYFO7GuhUwxjuh+xaHYDW+3/4GepgKJ8oKQoMEf0pA9PwH3JsBSCKMJvgd6Nk4xQ==
   dependencies:
     "@types/filesystem" "*"
     "@types/har-format" "*"
