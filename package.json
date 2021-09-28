@@ -36,7 +36,7 @@
     "@types/react-dom": "17.0.9",
     "@types/chrome": "0.0.158",
     "chokidar": "3.5.2",
-    "esbuild": "0.13.2",
+    "esbuild": "0.13.3",
     "husky": "7.0.2",
     "prettier": "2.4.1",
     "pretty-quick": "3.1.1",
