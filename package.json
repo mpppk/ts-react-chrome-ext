@@ -34,7 +34,7 @@
     "@types/node": "14.18.18",
     "@types/react": "17.0.45",
     "@types/react-dom": "17.0.17",
-    "@types/chrome": "0.0.184",
+    "@types/chrome": "0.0.185",
     "chokidar": "3.5.3",
     "esbuild": "0.14.39",
     "husky": "7.0.4",
