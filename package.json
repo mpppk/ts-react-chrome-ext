@@ -27,7 +27,7 @@
     "webextension-polyfill-ts": "0.26.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "5.17.0",
+    "@testing-library/jest-dom": "6.4.2",
     "@testing-library/react": "12.1.5",
     "@testing-library/user-event": "13.5.0",
     "@types/jest": "27.5.2",
